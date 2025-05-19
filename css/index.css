@@ -1,0 +1,237 @@
+
+header {
+    padding-top: 75px;
+}
+
+.bg-hero {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+        url(../img/hero-bg.jpg) center/cover;
+}
+
+
+
+
+.about li {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.about .link-round {
+    background-color: #5fcf80;
+    border: none;
+    padding: 9px 30px;
+    margin-top: 20px;
+}
+
+.about .link-round:hover {
+    border: none;
+    background-color: #78d594ca;
+}
+
+.about .link-round i {
+    transition: all .3s ease-in-out;
+}
+
+.about .link-round:hover i {
+    transform: translateX(5px);
+}
+
+
+.counter {
+    background-color: #f9f9f9;
+}
+
+.purecounter {
+    padding: 40px;
+}
+
+
+.purecounter span {
+    color: #5fcf80;
+    font-size: 2.8125rem;
+    font-weight: 800;
+}
+
+.purecounter p {
+    color: #78d594ca;
+    font-size: 1.25rem;
+}
+
+
+.why {
+    background-color: #5fcf80;
+    padding: 45px;
+    color: white;
+}
+
+.why .link-round {
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.203);
+}
+
+.why .link-round:hover {
+    background-color: white;
+    color: #5fcf80;
+}
+
+.icon-box {
+    height: 100%;
+    padding: 50px 20px;
+    border: 1px solid #78d594ca;
+    text-align: center;
+    gap: 20px;
+}
+
+.icon-box .circle-icon {
+    width: 85px;
+    height: 85px;
+    border: none;
+    background-color: #78d59425;
+    font-size: 35px;
+    transition: all .3s ease-in-out;
+}
+
+.icon-box:hover .circle-icon {
+    background-color: #5fcf80;
+    color: white;
+}
+
+.card-style {
+    border: 1px solid #78d594ca;
+    transition: all .3s ease-in-out;
+}
+
+.card-style:hover {
+    border: 1px solid #5fcf80;
+}
+
+.card-style h2 {
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.card-style:hover h2 {
+    color: #5fcf80;
+}
+
+
+
+.title-courses h3 {
+    font-size: 20px;
+    color: #44444492;
+    margin: 0;
+    position: relative;
+}
+
+.title-courses h3::after {
+    display: inline-block;
+    margin: 5px 10px;
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: #44444492;
+}
+
+
+.title-courses h2 {
+    color: #37423b;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+.card picture {
+    overflow: hidden;
+}
+
+.card picture img {
+    transition: all .4s ease-in-out;
+}
+
+.card:hover picture img {
+    transform: scale(1.08);
+}
+
+.card-body .card-info p {
+    color: white;
+    background-color: #5fcf80;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.card-info span {
+    font-size: 20px;
+    color: #44444492;
+    font-weight: 700;
+}
+
+.card-body a {
+    font-weight: 600;
+    font-size: 24px;
+    transition: all .3s ease-in-out;
+}
+
+.card-body a:hover {
+    color: #5fcf80;
+}
+
+.card-body p {
+    color: #609f73;
+}
+
+.card-footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card-footer a {
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.card-footer a:hover {
+    color: #5fcf80;
+}
+
+.icon-card {
+    color: #609f73;
+    font-size: 19px;
+}
+
+
+.person-team h5 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.person-team span {
+    font-size: 14px;
+    color: #44444492;
+    font-style: italic;
+}
+
+.person-team p {
+    text-align: center;
+    font-style: italic;
+    color: #44444492;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.person-team i {
+    color: #44444492;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.person-team i:hover {
+    color: #5fcf80;
+}

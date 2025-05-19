@@ -1,0 +1,35 @@
+.info-item .circle-icon{
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+    background-color: #5fcf80;
+}
+
+.info-item h6{
+    font-weight: 700;
+    margin: 3px;
+}
+
+
+.message{
+    background-color: #5fcf80;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.message:hover{
+    background-color: #5fcf80;
+    color: white;
+    opacity: 0.9;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #5fcf80;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AbdElwahed">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, Landing Page">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon for most browsers -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- link Animation On Scroll -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/heading-without-index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Mentor | Contact | Abd Elwahed </title>
+</head>
+
+<body>
+
+    <!-- Nav I Write it With JS -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white" id="nav"></nav>
+
+    <main>
+
+        <!-- Start Head -->
+        <section class="head" id="head"></section>
+        <!-- End Head -->
+
+        <!-- Ifream Google Map -->
+        <section>
+            <div class="container py-5">
+                <div style="width: 100%">
+                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=time%20square+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        <a href="https://www.gps.ie/collections/personal-trackers/">gps trackers</a>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Ifream Google Map -->
+
+        <!-- Contact -->
+        <section>
+            <div class="container">
+                <div class="row g-4 py-3">
+                    <div class="col-lg-4">
+                        <div class="info-item d-flex align-items-center gap-2 mb-4" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <i class="far fa-location-dot circle-icon"></i>
+                            <div>
+                                <h6>Address</h6>
+                                <p class="m-0">A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item d-flex align-items-center gap-2 mb-4" data-aos="fade-up"
+                            data-aos-delay="300">
+                            <i class="far fa-phone circle-icon"></i>
+                            <div>
+                                <h6>Call Us</h6>
+                                <p class="m-0">+1 5589 55488 55</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item d-flex align-items-center gap-2 mb-4" data-aos="fade-up"
+                            data-aos-delay="400">
+                            <i class="far fa-envelope circle-icon"></i>
+                            <div>
+                                <h6>Email Us</h6>
+                                <p class="m-0">info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <form data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                        required=""></textarea>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn message rounded-5">Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact -->
+
+    </main>
+
+    <!-- Footer I Write it With JS -->
+    <footer id="footer"></footer>
+
+
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Animation scroll -->
+    <script src="js/aos.js"></script>
+
+    <!-- My JS -->
+    <script src="js/main.js"></script>
+    <script src="js/heading-without-index.js"></script>
+    <script>
+        document.getElementById("contact").classList.add("active");
+        writeNamePage("Contact");
+    </script>
+
+
+</body>
+
+</html>

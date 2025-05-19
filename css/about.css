@@ -1,0 +1,144 @@
+.about li {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.about .link-round {
+    background-color: #5fcf80;
+    border: none;
+    padding: 9px 30px;
+    margin-top: 20px;
+}
+
+.about .link-round:hover {
+    border: none;
+    background-color: #78d594ca;
+}
+
+.about .link-round i {
+    transition: all .3s ease-in-out;
+}
+
+.about .link-round:hover i {
+    transform: translateX(5px);
+}
+
+
+.counter {
+    background-color: #f9f9f9;
+}
+
+.purecounter {
+    padding: 40px;
+}
+
+
+.purecounter span {
+    color: #5fcf80;
+    font-size: 2.8125rem;
+    font-weight: 800;
+}
+
+.purecounter p {
+    color: #78d594ca;
+    font-size: 1.25rem;
+}
+
+
+.title-Testimonial h3 {
+    font-size: 20px;
+    color: #44444492;
+    margin: 0;
+    position: relative;
+}
+
+.title-Testimonial h3::after {
+    display: inline-block;
+    margin: 5px 10px;
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: #44444492;
+}
+
+
+.title-Testimonial h2 {
+    color: #37423b;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+
+
+.testimonial-item {
+    position: relative;
+    border: 2px solid #4444441b;
+    padding: 40px 50px;
+}
+
+.testimonial-item h4 {
+    font-size: 14px;
+    color: #44444492;
+}
+
+.testimonial-item h3 {
+    font-size: 18px;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.testimonial-item p{
+    font-style: italic;
+    margin: 20px auto ;
+}
+
+.quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+    font-size: 26px;
+    color: #44444492;
+}
+
+.quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+    font-size: 26px;
+    color: #44444492;
+}
+
+@media (min-width: 768px) {
+    .testimonial-item{
+        padding: 30px 30px 30px 70px;
+        margin: 30px 20px;
+        min-height: 200px;
+    }
+    .testimonial-img{
+        position: absolute;
+        left: 0;
+        transform: translateX(-30%);
+    }
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #5fcf80;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    background-color: #5fcf80;
+}

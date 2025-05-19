@@ -1,0 +1,62 @@
+.courses-details-content h2{
+    position: relative;
+    border-bottom: 2px solid #4444441a;
+    margin-top: 1.25rem;
+    padding-block: .625rem;
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.courses-details-content h2::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 9.375rem;
+    height: 2px;
+    background-color: #5fcf80;
+}
+
+.courses-details-content p{
+    margin-top: .9375rem;
+    font-size: 1.125rem;
+}
+
+.sidebar li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #4444441a;
+    margin-block: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sidebar li p{
+    margin: 0;
+}
+
+.details h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.details p{
+    color: #444444c8;
+}
+
+section .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: inherit;
+    color: #5fcf80;
+    border-right: 5px solid #5fcf80 ;
+    border-radius: 0;
+
+}
+
+section .nav-pills .nav-link{
+    border-radius: 0;
+    border-right: 5px solid #4444441a ;
+    padding-block: .625rem;
+}

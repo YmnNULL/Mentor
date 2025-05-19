@@ -1,0 +1,66 @@
+
+.title-price{
+    background-color: #4444440f;
+    padding: 10px 0;
+}
+
+.title-details{
+    padding-block: 5px;
+    border-inline: 1px solid #4444441f ;
+}
+
+.title-details h6{
+    font-size: 35px;
+    margin-block: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+.dollar{
+    font-size: 20px;
+    top: -15px;
+    left: 5px;
+}
+
+.month{
+    color: #44444477;
+    font-size: 20px;
+}
+
+.not-allow{
+    text-decoration: line-through;
+    color: #44444477;
+}
+
+.pricing-footer{
+    padding: 30px 0;
+    background-color: #4444440f;
+}
+
+.pricing-footer a{
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5fcf80;
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing-footer a:hover{
+    opacity: 0.9;
+}
+
+.bg-my-color{
+    background-color: #5fcf80 !important;
+    color: white;
+}
+
+.advanced{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #5fcf80;
+    color: white;
+    font-weight: 600;
+    padding: 0px 30px;
+    transform: translate( 25% , 100%) rotate(49deg) ;
+}

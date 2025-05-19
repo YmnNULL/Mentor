@@ -1,0 +1,42 @@
+.card-team-img {
+    margin: 0 80px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-team-overlay {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-team:hover .card-team-overlay {
+    background: rgba(0, 0, 0, 0.502);
+    opacity: .9;
+}
+
+
+
+.card-team-overlay i {
+    font-size: 24px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.card-team-overlay i:hover {
+    color: #5fcf80;
+}
+
+.card-team-text h4 {
+    font-size: 22px;
+}
+
+.card-team-text h5 {
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(68, 68, 68, 0.6);
+}
